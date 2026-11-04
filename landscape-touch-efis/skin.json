@@ -2,7 +2,7 @@
   "kind": "skin_pack",
   "format_version": 1,
   "id": "landscape-touch-efis",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "display_name": "Landscape touch EFIS (10.6-inch layout)",
   "licence": "Apache-2.0",
   "display_model": "landscape_touch_efis",
@@ -14,6 +14,29 @@
     "knob": "#202328",
     "knob_mark": "#8b939d",
     "screen_surround": "#000000"
+  },
+  "instruments": {
+    "palette": {
+      "sky": "#2a64b8",
+      "ground": "#6f4e2c",
+      "tape_fill": "#1b222a",
+      "tape_text": "#f2f2f2",
+      "box_fill": "#000000",
+      "box_border": "#8e979f",
+      "box_text": "#ffffff",
+      "white": "#f5f5f5",
+      "cyan": "#00d8e0",
+      "magenta": "#e040e0",
+      "green": "#3ddc4a",
+      "yellow": "#f5d90a",
+      "red": "#ff3b30"
+    },
+    "typography": {
+      "tape_text": 1.08,
+      "box_text": 1.0,
+      "data_bar_text": 1.0,
+      "annunciation_text": 1.05
+    }
   },
   "labels": {
     "nearest_key": "NRST",

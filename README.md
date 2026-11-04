@@ -1,8 +1,9 @@
 # flightcraft-skins
 
 Display skin packs for the FlightCraft flight simulator. A skin pack changes how an installed
-display looks (bezel colours, key and knob faces, short control labels, the chrome font). It never
-changes behaviour: pages, knobs, menus, and failure logic belong to the engine's display model.
+display looks (bezel colours, key and knob faces, short control labels, the chrome font, and the
+instrument faces' palette and type sizes). It never changes behaviour or placement: pages, knobs,
+menus, failure logic, and where every box and tape sits belong to the engine's display model.
 
 Each skin is a subdirectory with its own `skin.json` manifest, `README.md`, and `ATTRIBUTION.md`.
 Each skin names the real unit whose layout and workflow it follows only nominatively, to say what
