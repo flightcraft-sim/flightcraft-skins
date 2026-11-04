@@ -1,0 +1,32 @@
+{
+  "kind": "skin_pack",
+  "format_version": 1,
+  "id": "landscape-touch-efis",
+  "version": "0.1.0",
+  "display_name": "Landscape touch EFIS (10.6-inch layout)",
+  "licence": "Apache-2.0",
+  "display_model": "landscape_touch_efis",
+  "palette": {
+    "bezel": "#0b0c0e",
+    "bezel_trim": "#2c2f34",
+    "key_face": "#16181b",
+    "key_text": "#d9dee4",
+    "knob": "#202328",
+    "knob_mark": "#8b939d",
+    "screen_surround": "#000000"
+  },
+  "labels": {
+    "nearest_key": "NRST",
+    "direct_key": "DIRECT",
+    "menu_key": "MENU",
+    "back_key": "BACK"
+  },
+  "font": "fonts/NotoSans-Regular.ttf",
+  "assets": [
+    {
+      "path": "fonts/NotoSans-Regular.ttf",
+      "kind": "font",
+      "licence": "OFL-1.1"
+    }
+  ]
+}
